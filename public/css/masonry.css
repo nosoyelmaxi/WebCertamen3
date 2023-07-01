@@ -1,0 +1,11 @@
+.img-galeria{
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    break-inside: avoid;
+}
+
+.galeria{
+    columns: 4 200px;
+    column-gap: 0.5em;
+}

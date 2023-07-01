@@ -1,0 +1,21 @@
+$primary: #ffa31a ;
+$secondary: #c71d1d ;
+$dark: #181818;
+
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+    "darkBG": #000000, 
+    "gray": #2f2f2f,
+    "navbarBG": #0f0f0f,
+    "lightGray": #acacac,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
